@@ -7,22 +7,22 @@
 
 body {
 	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #202030;
-	background-color: #f8f8fc;
+	color: #260D16;
+	background-color: #FFD9E7;
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #F294C0;
 }
 
 .resume-main {
-	background-color: #fffefc;
+	background-color: #F2CEDB;
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #FBABCE;
 }
 
 /* Styles for lists in the document */
@@ -36,7 +36,7 @@ body {
 }
 
 .biography-details li::before {
-	color: #EE7623;
+	color: #D04876;
 }
 
 .biography-details li, .skill-list li {
@@ -48,4 +48,12 @@ body {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+}
+
+.language-progress {
+	background-color: #D04876;
+}
+
+.border-2 {
+	border-color: #D04876 !important;
 }
