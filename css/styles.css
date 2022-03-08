@@ -6,9 +6,33 @@
 /* Styles for the body */
 
 body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Oswald', sans-serif;
 	color: #260D16;
 	background-color: #FFD9E7;
+	font-weight: lighter;
+}
+
+h2 {
+	font-family: 'Oswald', sans-serif;
+	text-shadow: 5px 5px #FBABCE;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+h3 {
+	font-family: 'Oswald', sans-serif;
+	text-shadow: 5px 5px #F294C0;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.fw-bolder {
+	color: #260D16;
+	font-family: 'Oswald', sans-serif;
+	text-shadow: 5px 5px #DE6A99;
+	font-size: 60px;
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
