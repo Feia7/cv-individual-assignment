@@ -63,6 +63,10 @@ h3 {
 	color: #D04876;
 }
 
+.skill-list li::before {
+	color: #D04876;
+}
+
 .biography-details li, .skill-list li {
 	padding-left: 1em;
 }
